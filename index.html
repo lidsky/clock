@@ -3,6 +3,13 @@
 	<head>
 	</head>
 	<body>
-		<div>Hi</div>
+		<div id='hi'>Hi</div>
+		<script type="text/javascript">
+			window.onload = function() {
+				var elem = document.getElementById('para');
+				elem.addEventListener("click", function() {
+					alert('bye');
+				});
+		</script>
 	</body>
 </html>
